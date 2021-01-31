@@ -1,7 +1,17 @@
 {
-  "name": "hugesqs",
-  "version": "1.0.0",
-  "description": "",
+  "name": "sqs-huge-message",
+  "version": "0.2.0",
+  "description": "A service to send and receive huge (and not huge) payload to SQS with Lambda.",
+  "keywords": [
+    "sqs",
+    "lambda",
+    "aws"
+  ],
+  "tags": [
+    "sqs",
+    "lambda",
+    "aws"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "npx jest --passWithNoTests --noStackTrace --runInBand",
@@ -22,8 +32,15 @@
     "ts-jest": "^26.1.1",
     "typescript": "^3.9.5"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Leandro Simões",
+    "email": "lesimoes0@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesimoes/sqs-huge-message"
+  },
+  "license": "Apache-2.0",
   "dependencies": {
     "aws-sdk": "^2.834.0",
     "sucrase": "^3.17.0",

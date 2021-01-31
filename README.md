@@ -1,8 +1,7 @@
 # sqs-huge-message
 A service to send and receive huge (and not huge) payload to SQS with Lambda.
 
-![Node.js CI](https://github.com/lesimoes/sqs-huge-message/workflows/Node.js%20CI/badge.svg?branch=master)
-
+![Node.js CI](https://github.com/lesimoes/sqs-huge-message/workflows/Node.js%20CI/badge.svg?branch=master) [![NPM version](https://img.shields.io/npm/v/sqs-huge-message.svg)](https://www.npmjs.com/package/sqs-huge-message)
 #### How it works
 
 "A picture is worth a thousand words", said a painter, then check this out this nice and emoji flow picture below.
@@ -17,6 +16,10 @@ Nice, isn't, but we have a explanation in words too: AWS Node SDK has a little a
 
 
 #### Instalation
+
+```
+npm install sqs-huge-message
+```
 
 #### Usage
 
