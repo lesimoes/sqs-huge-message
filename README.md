@@ -3,6 +3,8 @@ A service to send and receive huge (and not huge) payload to SQS with Lambda.
 
 #### How it works
 
+![Node.js CI](https://github.com/lesimoes/sqs-huge-message/workflows/Node.js%20CI/badge.svg)
+
 "A picture is worth a thousand words", said a painter, then check this out this nice and emoji flow picture below.
 
 
