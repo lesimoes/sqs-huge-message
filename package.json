@@ -1,0 +1,32 @@
+{
+  "name": "hugesqs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --passWithNoTests --noStackTrace --runInBand",
+    "test:unit": "npm test -- --watchAll -c jest-unit-config.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "eslint": "^7.3.1",
+    "eslint-config-standard-with-typescript": "^18.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.1.0",
+    "ntl": "^5.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.834.0",
+    "sucrase": "^3.17.0",
+    "uuid": "^8.3.2"
+  }
+}

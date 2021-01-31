@@ -1,0 +1,16 @@
+version: '2.1'
+
+services:
+
+  localstack:
+    container_name: "${LOCALSTACK_DOCKER_NAME-localstack_sqs_huge}"
+    image: localstack/localstack
+    ports:
+      - "4566-4599:4566-4599"
+    environment:
+      - SERVICES=sqs, s3
+      - LAMBDA_EXECUTOR=local
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - LAMBDA_REMOTE_DOCKER=false
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
