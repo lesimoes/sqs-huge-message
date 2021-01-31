@@ -6,6 +6,11 @@ A service to send and receive huge (and not huge) payload to SQS with Lambda.
 "A picture is worth a thousand words", said a painter, then check this out this nice and emoji flow picture below.
 
 
+![send message](https://raw.githubusercontent.com/lesimoes/sqs-huge-message/master/docs/send.png)
+
+![receive message](https://raw.githubusercontent.com/lesimoes/sqs-huge-message/master/docs/receive.png)
+
+
 Nice, isn't, but we have a explanation in words too: AWS Node SDK has a little anoing particularity about size of messages, sometimes we need send a huge message payload to SQS, but the AWS SQS has a limit of 256kb (😢). One way to tackle this particularity is send a huge message payload to S3 Bucket and a meta-data, with info about file on Bucket, to SQS. For receive messages the process should work as the same way, and after receivement the message will be deleted from SQS. 
 
 
