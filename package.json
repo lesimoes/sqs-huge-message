@@ -12,7 +12,7 @@
     "lambda",
     "aws"
   ],
-  "main": "index.js",
+  "main": "src/sqs-huge-msg.ts",
   "scripts": {
     "test": "npx jest --passWithNoTests --noStackTrace --runInBand",
     "test:unit": "npm test -- --watchAll -c jest-unit-config.js"
