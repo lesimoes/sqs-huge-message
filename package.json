@@ -1,6 +1,6 @@
 {
   "name": "sqs-huge-message",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A service to send and receive huge (and not huge) payload to SQS with Lambda.",
   "keywords": [
     "sqs",
